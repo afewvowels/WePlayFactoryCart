@@ -1,0 +1,14 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.1.0
+Date: 2026-11-07
+  Features:
+    - Added the factory cart, a nimble electric runabout with no weapons.
+    - Added the rainbow factory cart, which cycles through pastel colours.
+    - Carts charge from nearby power poles at up to 5MW into a 25MJ battery.
+    - 350kW motor and half the weight of the vanilla car.
+    - Player colour mask on the cart body. A cart placed by hand starts in that player's colour.
+    - Driver overlay that appears when someone is driving (needs the driver sprite sheets).
+    - Added the Factory cart technology.
+    - Custom item, entity and technology icons.
+  Info:
+    - Requires Factorio 2.1.

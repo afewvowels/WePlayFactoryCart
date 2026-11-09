@@ -1,0 +1,11 @@
+{
+  "name": "WePlayFactoryCart",
+  "version": "0.1.0",
+  "title": "WePlay: Factory Cart",
+  "author": "Keith",
+  "factorio_version": "2.1",
+  "description": "A nimble little electric runabout for zipping around your factory. Charges from your power network, no fuel and no guns. Comes in player colour or pastel rainbow.",
+  "dependencies": [
+    "base >= 2.1"
+  ]
+}
