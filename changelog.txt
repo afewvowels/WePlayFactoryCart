@@ -1,4 +1,20 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.2.0
+Date: 2026-11-12
+  Features:
+    - Added startup settings for battery capacity (10 to 50 MJ), charge rate (1 to 5 MW) and cargo slots (0 to 50).
+  Balancing:
+    - Battery capacity reduced from 25MJ to 10MJ by default.
+    - Charge rate reduced from 5MW to 1MW by default.
+    - Cargo reduced from 20 slots to 0 by default.
+  Changes:
+    - Hid the flashing "no power" icon when the cart is away from the power network.
+  Graphics:
+    - Added tyre dust, narrowed to fit the cart's wheels.
+  Sounds:
+    - Added a latch click when getting in and out of the cart.
+    - Replaced the petrol engine sounds with electric motor sounds: a servo whine at idle, a soft electric hum while driving, and clicks when the motor starts and stops.
+---------------------------------------------------------------------------------------------------
 Version: 0.1.0
 Date: 2026-11-07
   Features:

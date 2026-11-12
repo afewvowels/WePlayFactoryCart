@@ -3,7 +3,7 @@
 local CARTS = { ["wp-factory-cart"] = true, ["wp-factory-cart-rainbow"] = true }
 local CHARGER = "wp-factory-cart-charger"
 local CHARGE_ITEM = "wp-factory-cart-charge"
-local BATTERY_J = 25e6            -- keep in sync with BATTERY_CAPACITY in data.lua
+local BATTERY_J = prototypes.item[CHARGE_ITEM].fuel_value   -- set by the battery startup setting
 local CHARGE_EVERY = 10           -- ticks; data.lua's buffer is sized for this
 local DRIVER_ANIM = "wp-factory-cart-driver"
 local DRIVER_MASK_ANIM = "wp-factory-cart-driver-mask"
@@ -243,6 +243,7 @@ end)
 script.on_event(defines.events.on_player_driving_changed_state, function(event)
   local car = event.entity
   if car and car.valid and CARTS[car.name] then
+    car.surface.play_sound({ path = "wp-factory-cart-latch", position = car.position })
     local rec = storage.carts[car.unit_number]
     if rec then refresh_driver(rec) else track(car) end
   end
