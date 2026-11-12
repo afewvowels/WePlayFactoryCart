@@ -67,6 +67,8 @@ The cart's mesh and texture were generated with AI (Tripo), then cleaned up, lit
 
 The code is released under the [Unlicense](LICENSE), so it's in the public domain. Use it however you like.
 
+The sound effects in `sound/` are **not** covered by the Unlicense. They're used under Envato's license and stay under its terms, so don't reuse them outside this mod.
+
 ## 🔊 Sounds
 
 The motor sounds swap the vanilla car's idle and driving loops for electric ones, keeping the vanilla blending between them by speed. Collision sounds are vanilla.
